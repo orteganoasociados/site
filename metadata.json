@@ -1,0 +1,8 @@
+{
+  "name": "Ortegano & Asociados",
+  "description": "Sitio web corporativo del Escritorio Jurídico-Contable Ortegano & Asociados. Ofreciendo servicios de contaduría pública, asesoría legal, informática administrativa y desarrollo de software administrativo a medida.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
