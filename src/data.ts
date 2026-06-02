@@ -89,7 +89,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
       'Abogado en Libre Ejercicio',
       'Educador'
     ],
-    bio: 'Profesional del derecho, especializado en resolución de conflictos, Gestión, Derecho civil y mercantil.',
+    bio: 'Profesional del derecho con amplia trayectoria en el libre ejercicio, especializado en la resolución de conflictos, gestión legal y asesoría integral en materia civil y mercantil. Se destaca por brindar una orientación estratégica en la estructuración de contratos y el cumplimiento normativo, garantizando seguridad jurídica a empresas y particulares mediante una defensa sólida de sus intereses patrimoniales.',
     experienceYears: 20,
     education: [
       'Derecho (UNELLEZ)',
