@@ -54,7 +54,7 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
   };
 
   return (
-    <section className="py-20 bg-slate-50 border-y border-slate-200 overflow-hidden" id="servicios">
+    <section className="py-20 bg-slate-50 border-y border-slate-200 overflow-hidden isolate" id="servicios">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Headings */}
@@ -101,7 +101,7 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
           className="grid md:grid-cols-2 gap-8"
           id="services-grid"
         >
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence mode="wait">
             {filteredServices.map((service) => {
               const isExpanded = expandedService === service.id;
               
