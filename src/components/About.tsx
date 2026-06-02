@@ -58,7 +58,7 @@ export default function About() {
             >
               
               {/* Partner Portrait image */}
-              <div className="md:w-2/5 relative h-64 md:h-auto min-h-[280px]">
+              <div className="md:w-2/5 relative aspect-[4/5] md:aspect-auto md:min-h-[320px]">
                 <img 
                   src={member.imageUrl} 
                   alt={member.name} 
