@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { ShieldCheck, Scale, ChevronRight, BookOpen } from 'lucide-react';
-import heroImage from '../assets/images/hero_office_tech_1780326266658.png';
+import heroImage from '../assets/images/hero_law_and_finance.png';
 
 interface HeroProps {
   onNavigate: (sectionId: string) => void;
