@@ -53,12 +53,12 @@ export default function About() {
               whileHover={{ y: -4 }}
               transition={{ duration: 0.3 }}
               key={member.id}
-              className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm flex flex-col md:flex-row"
+              className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm flex flex-col md:flex-row h-full md:min-h-[520px]"
               id={`partner-card-${member.id}`}
             >
               
               {/* Partner Portrait image */}
-              <div className="md:w-2/5 relative aspect-[3/4] shrink-0 overflow-hidden">
+              <div className="md:w-2/5 relative shrink-0 overflow-hidden h-64 md:h-full">
                 <img 
                   src={member.imageUrl} 
                   alt={member.name} 
