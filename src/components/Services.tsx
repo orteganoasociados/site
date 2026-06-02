@@ -54,7 +54,7 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
   };
 
   return (
-    <section className="py-20 bg-slate-50 border-y border-slate-200" id="servicios">
+    <section className="py-20 bg-slate-50 border-y border-slate-200 overflow-hidden" id="servicios">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Headings */}
@@ -97,8 +97,7 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
         </div>
 
         {/* Services Grid layout */}
-        <motion.div 
-          layout
+        <div 
           className="grid md:grid-cols-2 gap-8"
           id="services-grid"
         >
@@ -204,7 +203,7 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
               );
             })}
           </AnimatePresence>
-        </motion.div>
+        </div>
 
       </div>
     </section>
