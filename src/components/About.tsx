@@ -53,27 +53,27 @@ export default function About() {
               whileHover={{ y: -4 }}
               transition={{ duration: 0.3 }}
               key={member.id}
-              className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm flex flex-col md:flex-row h-full md:min-h-[520px]"
+              className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm flex flex-col md:flex-row h-auto md:h-[520px]"
               id={`partner-card-${member.id}`}
             >
               
               {/* Partner Portrait image */}
-              <div className="md:w-2/5 relative shrink-0 overflow-hidden h-64 md:h-full">
+              <div className="md:w-[220px] relative shrink-0 overflow-hidden h-72 md:h-full">
                 <img 
-                  src={member.imageUrl} 
-                  alt={member.name} 
-                  className="absolute inset-0 w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
+                   src={member.imageUrl} 
+                   alt={member.name} 
+                   className="absolute inset-0 w-full h-full object-cover object-center"
+                   referrerPolicy="no-referrer"
                 />
                 {/* Years badge */}
-                <div className="absolute bottom-4 left-4 bg-slate-900/90 backdrop-blur-sm px-3.5 py-1.5 rounded-lg border border-slate-700 font-mono text-xs text-white z-10 flex items-center space-x-1.5">
-                  <Award size={13} className="text-blue-400" />
+                <div className="absolute bottom-4 left-4 right-4 bg-slate-900/90 backdrop-blur-sm px-2 py-1.5 rounded-lg border border-slate-700 font-mono text-[10px] text-white z-10 flex items-center justify-center space-x-1.5">
+                  <Award size={12} className="text-blue-400" />
                   <span>{member.experienceYears} años experiencia</span>
                 </div>
               </div>
 
               {/* Partner Info Details */}
-              <div className="md:w-3/5 p-6 sm:p-8 flex flex-col justify-between text-left">
+              <div className="flex-grow p-6 sm:p-8 flex flex-col justify-center text-left">
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-serif text-xl sm:text-2xl font-bold text-slate-900">
