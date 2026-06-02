@@ -1,5 +1,6 @@
 import { Service, TeamMember, Testimonial } from './types';
 import glyImage from './assets/images/gly.png';
+import geraImage from './assets/images/gera.png';
 
 export const SERVICES: Service[] = [
   // Contador Público
@@ -126,20 +127,21 @@ export const TEAM_MEMBERS: TeamMember[] = [
     imageUrl: glyImage
   },
   {
-    id: 'gabriel-ortegano',
-    name: 'Ing. Gabriel Ortegano',
-    role: 'Socio de Informática Administrativa y Desarrollo',
+    id: 'gerardo-ortegano',
+    name: 'Abog. Gerardo Ortegano',
+    role: 'Socio Fundador - Área Jurídica',
     credentials: [
-      'Ingeniero en Computación (UNITEC)',
-      'Máster en Informática Administrativa y Software de Gestión (UPV)'
+      'Abogado en Libre Ejercicio',
+      'Educador'
     ],
-    bio: 'Pionero en la automatización contable-tributaria y desarrollo de sistemas modulares ERP. Su enfoque fusiona la precisión del análisis de costos de su empresa con código escalable y dashboards de inteligencia financiera.',
-    experienceYears: 12,
+    bio: 'Profesional del derecho, especializado en resolución de conflictos, Gestión, Derecho civil y mercantil.',
+    experienceYears: 20,
     education: [
-      'Universidad Tecnológica del Centro - Ingeniero de Computación',
-      'Universidad Politécnica de Valencia (España) - Especialista en ERP y Software Corporativo'
+      'Derecho (UNELLEZ)',
+      'Educación Integral (Colegio Universitario Fermín Toro)',
+      'Colegio de Abogados del Estado Portuguesa - Miembro Activo'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=600&h=600'
+    imageUrl: geraImage
   }
 ];
 
