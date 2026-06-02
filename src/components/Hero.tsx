@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { ShieldCheck, Cpu, Code, ChevronRight, FileText } from 'lucide-react';
+import { ShieldCheck, Scale, ChevronRight, BookOpen } from 'lucide-react';
 import heroImage from '../assets/images/hero_office_tech_1780326266658.png';
 
 interface HeroProps {
@@ -36,7 +36,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 transition={{ duration: 0.6, delay: 0.1 }}
                 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight"
               >
-                La fusión perfecta de <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-emerald-400 font-serif">Leyes, Finanzas y Tecnología</span>
+                La unión precisa de <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-sky-300 to-emerald-400 font-serif">Leyes y Finanzas</span>
               </motion.h1>
 
               <motion.p 
@@ -45,8 +45,8 @@ export default function Hero({ onNavigate }: HeroProps) {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="text-slate-300 text-base sm:text-lg lg:text-xl font-normal leading-relaxed max-w-xl"
               >
-                En <strong className="text-white font-semibold">Ortegano & Asociados</strong> respaldamos la contabilidad, el blindaje legal tributario y potenciamos su gestión con 
-                <span className="text-sky-300 font-semibold"> informática administrativa</span> y desarrollo de software a medida.
+                En <strong className="text-white font-semibold">Ortegano & Asociados</strong> respaldamos su contabilidad con el mayor rigor técnico y brindamos
+                <span className="text-sky-300 font-semibold"> blindaje legal tributario</span> para proteger su patrimonio empresarial.
               </motion.p>
             </div>
 
@@ -70,8 +70,8 @@ export default function Hero({ onNavigate }: HeroProps) {
                 className="bg-slate-800/80 hover:bg-slate-700 hover:text-white text-slate-200 active:scale-[0.98] font-semibold text-sm px-7 py-4 rounded-lg flex items-center justify-center space-x-2 border border-slate-700 hover:border-slate-600 transition-all cursor-pointer"
                 id="btn-hero-contacto-directo"
               >
-                <Code size={16} className="text-sky-400" />
-                <span>Consultoría Tecnológica</span>
+                <Scale size={16} className="text-sky-400" />
+                <span>Consulta Inicial Gratuita</span>
               </button>
             </motion.div>
 
@@ -92,8 +92,8 @@ export default function Hero({ onNavigate }: HeroProps) {
                 <p className="text-[11px] text-slate-400 uppercase tracking-widest font-medium">Cumplimiento Legal</p>
               </div>
               <div className="space-y-1">
-                <p className="font-mono text-2xl sm:text-3xl font-bold text-sky-400 tracking-tight">Sistemas</p>
-                <p className="text-[11px] text-slate-400 uppercase tracking-widest font-medium">ERP a Medida</p>
+                <p className="font-mono text-2xl sm:text-3xl font-bold text-sky-400 tracking-tight">100%</p>
+                <p className="text-[11px] text-slate-400 uppercase tracking-widest font-medium">Secreto Profesional</p>
               </div>
             </motion.div>
 
@@ -125,11 +125,11 @@ export default function Hero({ onNavigate }: HeroProps) {
               <div className="absolute bottom-6 right-6 left-6 bg-slate-900/90 backdrop-blur-md p-4 rounded-xl border border-slate-700 flex items-center justify-between z-20">
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-blue-500/10 text-blue-450 rounded-lg">
-                    <Cpu size={18} className="text-blue-400" />
+                    <BookOpen size={18} className="text-blue-400" />
                   </div>
                   <div className="text-left">
-                    <p className="text-xs font-semibold text-white">Informática Administrativa</p>
-                    <p className="text-[10px] text-slate-400">Automatización de libros y reportes</p>
+                    <p className="text-xs font-semibold text-white">Asesoría Jurídico-Contable</p>
+                    <p className="text-[10px] text-slate-400">Protección legal y cumplimiento fiscal</p>
                   </div>
                 </div>
                 <div className="text-right">

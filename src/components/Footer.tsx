@@ -27,7 +27,7 @@ export default function Footer({ onNavigate }: FooterProps) {
             </div>
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">
-              Escritorio Jurídico-Contable pionero en la integración de auditoría contable clásica con informática de procesos de bases de datos y desarrollo de software ERP administrativo a medida.
+              Escritorio Jurídico-Contable especializado en brindar soluciones integrales de auditoría, gestión financiera y defensa tributaria para el sector empresarial.
             </p>
 
             <div className="flex items-center space-x-4">

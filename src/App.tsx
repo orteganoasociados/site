@@ -45,10 +45,6 @@ export default function App() {
       customMsg = 'Deseo cotizar sus servicios de Contabilidad General y Fiscalidad Mensual para mi empresa.';
     } else if (category === 'legal') {
       customMsg = 'Deseo solicitar asistencia de su Escritorio Jurídico para asesoría mercantil o defensa tributaria ante entes estatales.';
-    } else if (category === 'informatics') {
-      customMsg = 'Me interesa coordinar una auditoría de informática administrativa para diagnosticar inconsistencias en nuestras bases de datos contables.';
-    } else if (category === 'software') {
-      customMsg = 'Deseo cotizar el desarrollo de un módulo de software de gestión administrativa hecho a la medida de nuestro comercio.';
     }
 
     setPreFilledDetails({

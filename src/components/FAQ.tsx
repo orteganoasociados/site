@@ -22,7 +22,7 @@ export default function FAQ() {
             Preguntas Frecuentes
           </h3>
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto">
-            Es normal tener dudas al renovar los sistemas corporativos e integrar contabilidad con ingeniería de software. Aquí aclaramos los aspectos metodológicos y operacionales más importantes.
+            Es normal tener dudas sobre el cumplimiento tributario y la estructuración legal de su negocio. Aquí aclaramos los aspectos metodológicos y operacionales más importantes de nuestra asesoría.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ export default function FAQ() {
 
         {/* Action Link below */}
         <div className="text-center mt-12 p-6 bg-slate-900 text-white rounded-2xl border border-slate-800 space-y-3 max-w-xl mx-auto">
-          <p className="text-xs text-slate-400">¿Tiene otra inquietun muy particular sobre su software o auditoría fiscal?</p>
+          <p className="text-xs text-slate-400">¿Tiene otra inquietud muy particular sobre su situación legal o auditoría fiscal?</p>
           <a
             href="#contacto"
             className="inline-block text-xs font-bold text-blue-400 hover:text-blue-300 uppercase tracking-widest hover:underline"

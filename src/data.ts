@@ -61,68 +61,23 @@ export const SERVICES: Service[] = [
       'Auditoría preventiva de cumplimiento de deberes formales patronales'
     ]
   },
-  // Informática Administrativa
-  {
-    id: 'auditoria-sistemas-admin',
-    category: 'informatics',
-    title: 'Auditoría e Informática Administrativa',
-    description: 'Evaluación de sus flujos informáticos contables y sistemas de gestión.',
-    longDescription: 'Analizamos cómo fluyen sus datos desde la facturación hasta el asiento contable diario. Detectamos cuellos de botella en su software actual (Saint, Profit, SAP, etc.) y reestructuramos los flujos de información contable.',
-    iconName: 'Cpu',
-    features: [
-      'Diagnóstico de integridad de base de datos administrativas',
-      'Conciliación automatizada de inventarios y cuentas por cobrar',
-      'Optimización de planes de cuentas integrados a sistemas administrativos',
-      'Consultoría para migración exitosa entre sistemas ERP'
-    ]
-  },
-  // Desarrollo de Software Administrativo
-  {
-    id: 'software-medida-erp',
-    category: 'software',
-    title: 'Sistemas ERP y Software Administrativo a Medida',
-    description: 'Diseño e implementación de sistemas adaptados al 100% a sus procesos.',
-    longDescription: 'Evite pagar licencias genéricas costosas que no se adaptan a su realidad operativa. Desarrollamos plataformas web de facturación, almacén, cuentas por pagar y reportes contables que se integran de forma nativa a sus libros de contabilidad.',
-    iconName: 'FileCode',
-    features: [
-      'Plataformas web multiusuario e instalables localmente',
-      'Módulos inteligentes de facturación con retención de IVA e ISLR automatizada',
-      'Gestión de inventarios multidepósito con alertas críticas',
-      'Soporte técnico directo y mantenimiento continuo del código'
-    ]
-  },
-  {
-    id: 'dashboard-bi',
-    category: 'software',
-    title: 'Dashboards de Analítica y Business Intelligence',
-    description: 'Visualización interactiva en tiempo real sobre la salud de su empresa.',
-    longDescription: 'Transformamos datos fríos de sus sistemas contables o bases de datos en gráficos interactivos que le permiten monitorear márgenes de ganancia, rotación de inventarios y flujo de caja neto en tiempo real desde cualquier dispositivo.',
-    iconName: 'TrendingUp',
-    features: [
-      'Conexión segura a sus bases de datos SQL o archivos de hojas de datos',
-      'Indicadores de rendimiento clave (KPIs) financieros automáticos',
-      'Reportes gerenciales exportables a PDF con un solo clic',
-      'Tableros amigables diseñados para directores y gerentes'
-    ]
-  }
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 'gerly-ortegano',
     name: 'Lcdo. Gerly Ortegano',
-    role: 'Socio Fundador - Área Tecnológico-Contable',
+    role: 'Socio Fundador - Área Contable y Fiscal',
     credentials: [
       'Contador Público Colegiado',
-      'Desarrollador de Software y Automatización',
-      'Especialista en Sistemas e Infraestructura Linux'
+      'Especialista en Fiscalidad y Cumplimiento Tributario',
+      'Asesor Contable para Empresas Comerciales e Industriales'
     ],
-    bio: 'Profesional de la contaduría pública especializado en la automatización de procesos fiscales, gestión de datos y desarrollo de soluciones tecnológicas aplicadas a los negocios. Líder en la modernización de flujos de trabajo e implementación de herramientas digitales orientadas al cumplimiento tributario y corporativo.',
+    bio: 'Profesional de la contaduría pública con amplia trayectoria en la gestión contable integral, auditoría financiera y asesoría fiscal para empresas comerciales, industriales y de servicios. Comprometido con el rigor técnico, la honestidad profesional y el cumplimiento estricto de las normativas tributarias vigentes.',
     experienceYears: 18,
     education: [
       'Universidad Nacional Abierta - Licenciado en Contaduría Pública (UNELLEZ)',
-      'Colegio de Contadores Públicos del Estado Portuguesa - Miembro Activo',
-      'Tecnologías y Lenguajes de Programación - (Especialización Autónoma)'
+      'Colegio de Contadores Públicos del Estado Portuguesa - Miembro Activo'
     ],
     imageUrl: glyImage
   },
@@ -151,36 +106,36 @@ export const TESTIMONIALS: Testimonial[] = [
     clientName: 'Ing. Alejandro Gómez',
     company: 'Distribuidora Alimentos del Mar, C.A.',
     role: 'Director de Operaciones',
-    content: 'Ortegano & Asociados revolucionó nuestra empresa. El Lcdo. Gerly automatizó nuestros procesos fiscales de forma impecable, y luego el Ing. Gabriel potenció nuestro sistema de inventarios y facturación a medida. Pasamos de cuadrar inventarios manualmente a tener un flujo administrativo 100% integrado.',
+    content: 'Ortegano & Asociados ha sido clave para el cumplimiento fiscal de nuestra empresa. El Lcdo. Gerly gestionó nuestros procesos contables con total pulcritud y el Abog. Gerardo nos orientó en la estructuración legal de nuestros contratos comerciales. Un escritorio de altísima confianza.',
     rating: 5,
-    serviceCategory: 'Desarrollo de Software / Legal'
+    serviceCategory: 'Contabilidad / Legal'
   },
   {
     id: 'test-2',
     clientName: 'Lic. Patricia Benítez',
     company: 'Consorcio Manufacturero Industrial Metalúrgico',
     role: 'Gerente General de Finanzas',
-    content: 'Su labor de auditoría financiera fue impecable, pero lo que realmente destaca es su conocimiento en Informática de Sistemas. Corrigieron inconsistencias trágicas en las bases de datos de nuestro antiguo ERP y automatizaron las retenciones de IVA, ahorrando dos semanas de trabajo manual al mes.',
+    content: 'Su labor de auditoría financiera fue impecable. Detectaron inconsistencias contables críticas, regularizaron nuestros libros y nos defendieron ante una fiscalización del SENIAT con resultados favorables. Profesionales de primera categoría.',
     rating: 5,
-    serviceCategory: 'Informática Administrativa / Contaduría'
+    serviceCategory: 'Auditoría / Asesoría Fiscal'
   }
 ];
 
 export const FAQS = [
   {
-    question: '¿Por qué contratar un escritorio que une leyes, contabilidad y tecnología?',
-    answer: 'Generalmente las empresas deben contratar tres proveedores distintos que no se comunican entre sí: un abogado tributarista, un contador y un programador de software. En Ortegano & Asociados eliminamos esa brecha. Entendemos las leyes mercantiles, estructuramos la contabilidad y desarrollamos las herramientas informáticas exactas para operar eficientemente.'
+    question: '¿Por qué contratar un escritorio que une leyes y contabilidad?',
+    answer: 'Generalmente las empresas deben contratar proveedores distintos que no se comunican entre sí: un abogado tributarista y un contador. En Ortegano & Asociados eliminamos esa brecha. Entendemos las leyes mercantiles y estructuramos la contabilidad de forma integral, ofreciendo una visión unificada para proteger y ordenar su patrimonio corporativo.'
   },
   {
-    question: '¿Cómo funciona el desarrollo de software administrativo a medida?',
-    answer: 'Primero hacemos una consultoría de informática administrativa sin costo inicial para evaluar sus procesos actuales. Luego diseñamos el flujo óptimo, codificamos el software, migramos los datos contables antiguos y capacitamos a su personal. Todo el software cumple automáticamente con las regulaciones de facturación y retenciones del país.'
+    question: '¿Qué incluye el servicio de auditoría financiera?',
+    answer: 'Nuestra auditoría cubre la evaluación de la razonabilidad de sus estados financieros, la revisión del sistema de control interno, la detección de inconsistencias contables y la emisión de informes con recomendaciones. Trabajamos bajo normas VEN-NIF y emitimos dictámenes válidos ante entidades bancarias y entes reguladores.'
   },
   {
     question: '¿Ofrecen asesoramiento y auditoría remoto o presencial?',
-    answer: 'Ambos. Brindamos soporte digital mediante plataformas en la nube de alta seguridad para toda América Latina y España, coordinando citas presenciales en nuestras oficinas principales para revisiones de libros físicos, firmas de asambleas de socios y despachos de defensa legal fiscal.'
+    answer: 'Ambos. Brindamos soporte y asesoría de forma virtual para clientes en toda Venezuela y en el exterior, coordinando citas presenciales en nuestras oficinas de Guanare para revisiones de libros físicos, firmas de asambleas de socios y despachos de defensa legal fiscal.'
   },
   {
-    question: '¿De qué tecnologías hacen uso para el desarrollo de software?',
-    answer: 'Desarrollamos soluciones web modernas de alto rendimiento usando React, Node.js y bases de datos SQL locales o nube que garantizan cero cuellos de botella informáticos. Son sistemas diseñados para ejecutarse sin fallar y con interfaces sumamente intuitivas para secretarias, analistas y gerentes.'
+    question: '¿Cómo funciona la defensa ante una auditoría o fiscalización del SENIAT?',
+    answer: 'Nuestro equipo jurídico-contable evalúa el acta de reparo o notificación fiscal, prepara los descargos correspondientes, y representa a su empresa ante los entes competentes. Diseñamos estrategias de planificación fiscal preventiva para evitar contingencias futuras, siempre dentro del marco legal vigente.'
   }
 ];

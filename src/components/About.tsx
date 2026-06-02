@@ -31,7 +31,7 @@ export default function About() {
               Honestidad, Rigor Técnico y Transparencia Operativa
             </h4>
             <p className="text-slate-600 text-sm leading-relaxed">
-              En <strong className="text-slate-800 font-semibold">Ortegano & Asociados</strong>, entendemos que la contabilidad y el marco tributario de un negocio exigen la máxima pulcritud ética. Asimismo, creemos que la tecnología no debe ser una caja de arena inaccesible: entregamos código abierto a medida para que su empresa sea soberana de sus sistemas de facturación y control comercial.
+              En <strong className="text-slate-800 font-semibold">Ortegano & Asociados</strong>, entendemos que la contabilidad y el marco tributario de un negocio exigen la máxima pulcritud ética y un compromiso inquebrantable con la legalidad. Nuestro enfoque se centra en proporcionar seguridad financiera y respaldo jurídico sólido para que su empresa crezca sobre bases firmes y transparentes.
             </p>
           </div>
           <div className="border-t md:border-t-0 md:border-l border-slate-200 pt-6 md:pt-0 md:pl-8 space-y-4">
@@ -40,7 +40,7 @@ export default function About() {
               <span>Protección legal continua bajo derecho privado, civil y mercantil nacional.</span>
             </div>
             <div className="flex items-start space-x-3 text-xs text-slate-600">
-              <Code size={18} className="text-blue-500 shrink-0 mt-0.5" />
+              <ShieldCheck size={18} className="text-blue-500 shrink-0 mt-0.5" />
               <span>Independencia contable conforme a normas vigentes (VEN-NIF / CPC).</span>
             </div>
           </div>

@@ -9,15 +9,13 @@ interface ServicesProps {
 }
 
 export default function Services({ onSelectServiceForQuote }: ServicesProps) {
-  const [activeCategory, setActiveCategory] = useState<'all' | 'accounting' | 'legal' | 'informatics' | 'software'>('all');
+  const [activeCategory, setActiveCategory] = useState<'all' | 'accounting' | 'legal'>('all');
   const [expandedService, setExpandedService] = useState<string | null>(null);
 
   const categories = [
     { id: 'all', label: 'Todos los Servicios', icon: 'Layers' },
     { id: 'accounting', label: 'Contaduría Pública', icon: 'BookOpen' },
     { id: 'legal', label: 'Escritorio Jurídico', icon: 'Scale' },
-    { id: 'informatics', label: 'Informática Admin', icon: 'Cpu' },
-    { id: 'software', label: 'Software a Medida', icon: 'FileCode' },
   ];
 
   const filteredServices = activeCategory === 'all' 
@@ -37,8 +35,6 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
     switch (category) {
       case 'accounting': return 'bg-emerald-50 text-emerald-700 border-emerald-100';
       case 'legal': return 'bg-blue-50 text-blue-700 border-blue-100';
-      case 'informatics': return 'bg-sky-50 text-sky-700 border-sky-100';
-      case 'software': return 'bg-indigo-50 text-indigo-700 border-indigo-100';
       default: return 'bg-slate-50 text-slate-700 border-slate-100';
     }
   };
@@ -47,8 +43,6 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
     switch (category) {
       case 'accounting': return 'Contaduría Pública';
       case 'legal': return 'Legal / Tributario';
-      case 'informatics': return 'Informática Administrativa';
-      case 'software': return 'Software ERP Corporativo';
       default: return '';
     }
   };
@@ -66,7 +60,7 @@ export default function Services({ onSelectServiceForQuote }: ServicesProps) {
             Nuestros Servicios Profesionales
           </h3>
           <p className="text-slate-600 text-base sm:text-lg">
-            Cubrimos todas las aristas de su negocio. Desde la contabilidad y el marco fiscal, hasta la auditoría de sistemas e ingeniería de software corporativo a medida.
+            Cubrimos los pilares fundamentales de su negocio: la gestión contable y fiscal rigurosa, y el blindaje legal para proteger su patrimonio corporativo.
           </p>
         </div>
 

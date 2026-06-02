@@ -126,7 +126,7 @@ export default function ContactForm({ preFilledDetails, onClearPreFill }: Contac
             Inicie su Consulta Inicial Gratuita
           </h3>
           <p className="text-slate-600 text-sm sm:text-base">
-            No deje sus decisiones tributarias o tecnológicas al azar. Envíenos sus datos y un socio principal evaluará su caso para agendar una sesión de trabajo presencial o virtual.
+            No deje sus decisiones tributarias o legales al azar. Envíenos sus datos y un socio principal evaluará su caso para agendar una sesión de trabajo presencial o virtual.
           </p>
         </div>
 
@@ -231,7 +231,7 @@ export default function ContactForm({ preFilledDetails, onClearPreFill }: Contac
                 <h5 className="font-serif text-sm font-bold text-slate-900 uppercase tracking-tight">Política de Secreto Profesional</h5>
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
-                Toda la información mercantil, balances contables preliminares, nombres de socios y alcances de software aquí compartidos están amparados estrictamente bajo el <strong>Secreto Profesional Contable y Abogadil</strong>. Ninguna base de datos se expone de forma pública de conformidad con las leyes vigentes.
+                Toda la información mercantil, balances contables preliminares y nombres de socios aquí compartidos están amparados estrictamente bajo el <strong>Secreto Profesional Contable y Abogadil</strong>. Ninguna base de datos se expone de forma pública de conformidad con las leyes vigentes.
               </p>
             </div>
 
@@ -344,8 +344,6 @@ export default function ContactForm({ preFilledDetails, onClearPreFill }: Contac
                 >
                   <option value="accounting">Contabilidad de Ley y Fiscalidad Mensual</option>
                   <option value="legal">Asistencia de Escritorio Jurídico (Defensa Fiscal / Contratos)</option>
-                  <option value="informatics">Auditoría e Informática Administrativa (Análisis de Sistemas)</option>
-                  <option value="software">Desarrollo de Software ERP y Dashboards a Medida</option>
                 </select>
               </div>
 
@@ -478,8 +476,6 @@ export default function ContactForm({ preFilledDetails, onClearPreFill }: Contac
                       <span className="inline-block bg-blue-500/10 border border-blue-500/20 text-blue-800 text-[9px] font-bold px-2 py-0.5 rounded uppercase font-mono">
                         {inq.serviceCategory === 'accounting' && 'Contabilidad'}
                         {inq.serviceCategory === 'legal' && 'Legal Mercantil'}
-                        {inq.serviceCategory === 'informatics' && 'Informática'}
-                        {inq.serviceCategory === 'software' && 'Software a Medida'}
                       </span>
                       <span className="inline-block bg-emerald-500/10 border border-emerald-500/20 text-emerald-800 text-[9px] font-mono font-bold px-2 py-0.5 rounded flex items-center space-x-1">
                         <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse inline-block" />

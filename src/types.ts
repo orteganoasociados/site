@@ -1,6 +1,6 @@
 export interface Service {
   id: string;
-  category: 'accounting' | 'legal' | 'informatics' | 'software';
+  category: 'accounting' | 'legal';
   title: string;
   description: string;
   longDescription: string;
@@ -37,6 +37,5 @@ export interface ContactInquiry {
   businessName?: string;
   serviceCategory: string;
   message: string;
-  softwareComplexity?: 'basic' | 'medium' | 'advanced';
   estimatedBudget?: number;
 }
