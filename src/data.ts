@@ -2,6 +2,8 @@ import { Service, TeamMember, Testimonial } from './types';
 import glyImage from './assets/images/gly.png';
 import geraImage from './assets/images/gera.png';
 
+export const SITE_URL = 'orteganoasociados.github.io';
+
 export const SERVICES: Service[] = [
   // Contador Público
   {

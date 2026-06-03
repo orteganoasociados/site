@@ -1,4 +1,5 @@
 import { useState, useEffect, ChangeEvent, FormEvent } from 'react';
+import { SITE_URL } from '../data';
 import { motion, AnimatePresence } from 'motion/react';
 import { Mail, Phone, MapPin, Send, HelpCircle, CheckCircle2, Trash2, Shield, Radio, MessageSquare } from 'lucide-react';
 import { ContactInquiry } from '../types';
@@ -109,7 +110,7 @@ export default function ContactForm({ preFilledDetails, onClearPreFill }: Contac
 
   // Generate whatsapp message API template
   const getWhatsAppLink = (phoneNum: string = '584124955404') => {
-    const text = encodeURIComponent(`Hola Ortegano & Asociados, les escribo desde su sitio web. Deseo solicitar una consulta inicial para mi negocio.`);
+    const text = encodeURIComponent(`Hola Ortegano & Asociados, les escribo desde su sitio web (${SITE_URL}). Visita nuestra web y solicita una consulta inicial para mi negocio.`);
     return `https://wa.me/${phoneNum}?text=${text}`;
   };
 
