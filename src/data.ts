@@ -76,7 +76,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: 'Profesional de la contaduría pública con amplia trayectoria en la gestión contable integral, auditoría financiera y asesoría fiscal para empresas comerciales, industriales y de servicios. Comprometido con el rigor técnico, la honestidad profesional y el cumplimiento estricto de las normativas tributarias vigentes.',
     experienceYears: 18,
     education: [
-      'Universidad Nacional Abierta - Licenciado en Contaduría Pública (UNELLEZ)',
+      'Licenciado en Contaduría Pública (UNELLEZ)',
       'Colegio de Contadores Públicos del Estado Portuguesa - Miembro Activo'
     ],
     imageUrl: glyImage
