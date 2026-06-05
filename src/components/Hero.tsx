@@ -71,7 +71,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 id="btn-hero-contacto-directo"
               >
                 <Scale size={16} className="text-sky-400" />
-                <span>Consulta Inicial Gratuita</span>
+                <span>Consulta Inicial</span>
               </button>
             </motion.div>
 

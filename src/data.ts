@@ -49,7 +49,7 @@ export const SERVICES: Service[] = [
       'Constitución, fusión y liquidación de sociedades mercantiles'
     ]
   },
-  {
+  */{
     id: 'derecho-laboral-corporativo',
     category: 'legal',
     title: 'Derecho Laboral y Contractual',
@@ -62,7 +62,7 @@ export const SERVICES: Service[] = [
       'Redacción de contratos de distribución y confidencialidad (NDA)',
       'Auditoría preventiva de cumplimiento de deberes formales patronales'
     ]
-  },
+  },/*
 ];
 
 export const TEAM_MEMBERS: TeamMember[] = [
