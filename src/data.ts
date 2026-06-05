@@ -79,7 +79,6 @@ export const TEAM_MEMBERS: TeamMember[] = [
     experienceYears: 18,
     education: [
       'Licenciado en Contaduría Pública (UNELLEZ)',
-      'Diplomado en Tributacion',
       'Colegio de Contadores Públicos del Estado Portuguesa - Miembro Activo'
     ],
     imageUrl: glyImage
